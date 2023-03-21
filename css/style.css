@@ -19,4 +19,13 @@
 .menu:hover{
     background-color: rgb(22, 91, 160);
 }
+.text-header{
+    min-height: 100vh;
+    color: white;
+    font-family: abel;
+}
+.text-header h2{ 
+    font-family: ibm plex sans ;
+
+}
     
