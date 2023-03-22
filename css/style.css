@@ -31,11 +31,14 @@
 .text-header{
     min-height: 15cm;
     justify-items: center;
-    color: white;
+    color: black;
     font-family: abel;
+    font-size: x-large;
 }
-.text-header h2{ 
+.text-header h2{  min-height: 15cm
+    color: black;
     font-family: ibm plex sans ;
+    font-size: xx-large;
 
 }
 .text-header span{
