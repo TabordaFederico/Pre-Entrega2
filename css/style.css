@@ -5,7 +5,7 @@
     .body { background-image:url(../img/Background.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;}}
+        background-attachment: fixed;}
  .bg-light{
     position: fixed;
     z-index: 20;
@@ -44,9 +44,7 @@
     font-family:ibm plex sans ;
 margin: 0 0 0 5px;
 }
-.text-header p{
-    font size: 1em;
-}
+
 footer{display: flex;
     justify-content:center ;}
 .Redes-Sociales{position: absolute;
@@ -73,4 +71,28 @@ font-size: xx-large;
         box-shadow: 0 3px 5px 0px rgba (0 0 0 2);
         filter: none;
     }
-
+.form { width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;}
+    .controls { width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: white;}
+        .botons {  width: 100%;
+            background: #1f53c5;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;}
