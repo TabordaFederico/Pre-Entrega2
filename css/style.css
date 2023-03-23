@@ -99,3 +99,27 @@ font-size: xx-large;
             color: white;
             margin: 16px 0;
             font-size: 16px;}
+.Carrusel h1{
+    color: #000;
+    font-family:abel ;
+    font-size: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.carousel-item { display: flex
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.carousel-caption{
+    color: black;
+    font-family:abel ;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+   
+
+}
