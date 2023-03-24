@@ -32,7 +32,7 @@
 }
 .dropdown-menu a:hover{
     transform: translateY(-3px)scale(1.05);
-    background-color: cornflowerblue;
+    background-color: #005ea6;
     filter: none;
 
 }
@@ -123,5 +123,25 @@ font-size: xx-large;
     padding: 10px 15px;
     text-align: center;
     text-transform: uppercase;}
-    @media (max-width :480px){
-        .form {width: 100%;}}
+@media (max-width :480px){
+    .form {width: 100%;}}
+
+.card{margin: 10px 20px;
+box-shadow: 0 4px 8px 0 #005ea6, 0 6px 20px 0 rgba(0, 0, 0, 19);
+float: left;
+width: 350px;
+background-color:#005ea6;}
+.card-img-top {
+    width: 300;
+    height: 200px;}
+.card p{
+  justify-items: center;
+ color: black;
+ font-family: abel;
+   font-size: x-large;}
+.card h5{font-weight: bold;
+text-align: center;
+color: black;
+font-family: abel;
+ font-size: x-large;}
+ 
