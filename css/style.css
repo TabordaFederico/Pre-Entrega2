@@ -1,11 +1,19 @@
 .header {
     width: 100%;
     min-height: 100vh;
-   }
+    min-height: 100vh;
+        position: relative;
+        padding-bottom: 0px;
+    }
     .body { background-image:url(../img/Background.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;}
+        background-attachment: fixed;
+        min-height: 100vh;
+        position: relative;
+        padding-bottom: 0px;
+       
+    }
  .bg-light{
     position: fixed;
     z-index: 20;
@@ -35,12 +43,10 @@
     font-family: abel;
     font-size: x-large;
 }
-.text-header h2{  min-height: 15cm
-    color: black;
+.text-header h2{  min-height: 20cm
+    color  black;
     font-family: ibm plex sans ;
-    font-size: xx-large;
-
-}
+    font-size: xx-large;}
 .text-header span{
     letter-spacing: 5px;
     font-size: 1.3em;
@@ -55,6 +61,8 @@ bottom: 1%;
 font-size: xx-large;
 }
 .Redes-Sociales ul li{
+ 
+   width: auto;
     display: inline-block;
     margin: 0 5px;
     width: 50px;
@@ -62,8 +70,10 @@ font-size: xx-large;
     text-align: center;
     }
     .Redes-Sociales ul li a{
-        display: block;
-        padding: 0 10px;
+        position: absolute;
+        bottom: 0px;
+       display: block;
+        padding: 0px;
         background: transparent;
         color: #fff;
         line-height: 50px;
@@ -78,7 +88,7 @@ font-size: xx-large;
     background: #24303c;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
@@ -105,21 +115,13 @@ font-size: xx-large;
     font-size: 50px;
     padding: 10px 15px;
     text-align: center;
-    text-transform: uppercase;
-}
-.carousel-item { display: flex
-    align-items: center;
-    justify-content: center;
-
-    
-}
+    text-transform: uppercase;}
 .carousel-caption{
     color: black;
     font-family:abel ;
-    font-size: 17px;
+    font-size: 20px;
     padding: 10px 15px;
     text-align: center;
-    text-transform: uppercase;
-   
-
-}
+    text-transform: uppercase;}
+    @media (max-width :480px){
+        .form {width: 100%;}}
